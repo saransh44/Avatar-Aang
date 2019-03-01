@@ -4,89 +4,72 @@ a:link, a:visited, a:hover, a:active, and flex */
 /*Each of the HTML pages must load style.css as
 an external style sheet using the link element.
 Your CSS must be valid, according to the stylelint plug-in.
-Do not use more than three colors—excluding neutrals—in
-your designs. Do not use more than two fonts in your designs.
+Do not use more than three colors—excluding neutrals
+—in your designs.
+Do not use more than two fonts in your designs.
 */
 * {
    margin: 0;
    padding: 0;
 }
-header {
-   font-family: 'Patua One', cursive;
+/* html {
+   border-color: red;
+}*/
+h1 {
+   /* font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; */
+   /* font-family: Lato, sans-serif; */
+   /* font-family: 'Open Sans', sans-serif; */
    text-align: center;
-   font-size: 72px;
-   margin-top: 22px;
-   margin-bottom: 22px;
+   font-size: 60px;
+   margin-top: 12px;
+   margin-bottom: 12px;
 }
-
 body {
-   background-color: purple;
-   color: yellow;
+   background-color: lightblue;
+   color: black;
    font-family: Lato, sans-serif;
    font-weight: 200;
    margin: auto;
    width: 960px;
-   /* font-family: 'IBM Plex Sans', sans-serif; */
 }
+
+/* font-family: 'IBM Plex Sans', sans-serif; */
 /*
    Setting display to flex makes all its direct children (<div>) flex children.
    Further, any space left over when the flex children are laid out will be equally
    spaced around each flex child.
 */
 main {
-   display: flex;
-   justify-content: space-around;
+   /* display: flex; */
+   /* justify-content: space-around; */
 }
-
-/*
-   Have the image take up 100% of the parent’s width, which is 300px.
-*/
-/* img {
-   width: 100%;
-} */
-
-footer {
-   text-align: center;
+nav{
+  display: flex;
+  justify-content: space-around;
 }
-
-footer h2 {
-   margin-bottom: 0;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 a:link {
-   text-decoration: none;
+  color: green;
+  text-decoration: none;
 }
-
 a:visited {
-   color: red;
-}
-
-a:hover {
-   text-decoration: overline;
-}
-
-a:active {
+   color: black;
    text-decoration: underline;
 }
-/* html {
-   border-color: red;
+a:hover {
+   text-decoration: underline;
 }
-
-body {
-   border-color: blue;
+a:active {
+  text-decoration: underline;
 }
+footer {
+   text-align: center;
+   padding: 12px;
+   margin: 12px;
 
-header {
-   border-color: green;
 }
-
-h1 {
-   border-color: pink;
-}
-
-p {
-   border-color: #c0ffee;
-}
-
-a {
-   border-color: #bada55;
-} */
