@@ -1,4 +1,92 @@
+/*Use background, font, margin, padding,
+a:link, a:visited, a:hover, a:active, and flex */
+
+/*Each of the HTML pages must load style.css as
+an external style sheet using the link element.
+Your CSS must be valid, according to the stylelint plug-in.
+Do not use more than three colors—excluding neutrals—in
+your designs. Do not use more than two fonts in your designs.
+*/
+* {
+   margin: 0;
+   padding: 0;
+}
+header {
+   font-family: 'Patua One', cursive;
+   text-align: center;
+   font-size: 72px;
+   margin-top: 22px;
+   margin-bottom: 22px;
+}
+
 body {
    background-color: purple;
    color: yellow;
+   font-family: Lato, sans-serif;
+   font-weight: 200;
+   margin: auto;
+   width: 960px;
+   /* font-family: 'IBM Plex Sans', sans-serif; */
 }
+/*
+   Setting display to flex makes all its direct children (<div>) flex children.
+   Further, any space left over when the flex children are laid out will be equally
+   spaced around each flex child.
+*/
+main {
+   display: flex;
+   justify-content: space-around;
+}
+
+/*
+   Have the image take up 100% of the parent’s width, which is 300px.
+*/
+/* img {
+   width: 100%;
+} */
+
+footer {
+   text-align: center;
+}
+
+footer h2 {
+   margin-bottom: 0;
+}
+a:link {
+   text-decoration: none;
+}
+
+a:visited {
+   color: red;
+}
+
+a:hover {
+   text-decoration: overline;
+}
+
+a:active {
+   text-decoration: underline;
+}
+/* html {
+   border-color: red;
+}
+
+body {
+   border-color: blue;
+}
+
+header {
+   border-color: green;
+}
+
+h1 {
+   border-color: pink;
+}
+
+p {
+   border-color: #c0ffee;
+}
+
+a {
+   border-color: #bada55;
+} */
