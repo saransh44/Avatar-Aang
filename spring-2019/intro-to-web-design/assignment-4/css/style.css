@@ -54,22 +54,28 @@ img {
   width: 25%;
 }
 a:link {
-  color: green;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:visited {
    color: black;
    text-decoration: underline;
 }
 a:hover {
-   text-decoration: underline;
+   text-decoration: overline;
 }
 a:active {
   text-decoration: underline;
+}
+iframe {
+   border: 0;
+   display: block;
+   margin: 12px;
+   padding: 12px;
+   width: 640px;
+   height: 360px;
 }
 footer {
    text-align: center;
    padding: 12px;
    margin: 12px;
-
 }

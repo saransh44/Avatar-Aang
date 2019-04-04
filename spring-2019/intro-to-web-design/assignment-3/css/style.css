@@ -1,0 +1,75 @@
+/*Use background, font, margin, padding,
+a:link, a:visited, a:hover, a:active, and flex */
+
+/*Each of the HTML pages must load style.css as
+an external style sheet using the link element.
+Your CSS must be valid, according to the stylelint plug-in.
+Do not use more than three colors—excluding neutrals
+—in your designs.
+Do not use more than two fonts in your designs.
+*/
+* {
+   margin: 0;
+   padding: 0;
+}
+/* html {
+   border-color: red;
+}*/
+h1 {
+   /* font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; */
+   /* font-family: Lato, sans-serif; */
+   /* font-family: 'Open Sans', sans-serif; */
+   text-align: center;
+   font-size: 60px;
+   margin-top: 12px;
+   margin-bottom: 12px;
+}
+body {
+   background-color: lightblue;
+   color: black;
+   font-family: Lato, sans-serif;
+   font-weight: 200;
+   margin: auto;
+   width: 960px;
+}
+
+/* font-family: 'IBM Plex Sans', sans-serif; */
+/*
+   Setting display to flex makes all its direct children (<div>) flex children.
+   Further, any space left over when the flex children are laid out will be equally
+   spaced around each flex child.
+*/
+main {
+   /* display: flex; */
+   /* justify-content: space-around; */
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+a:link {
+  color: green;
+  text-decoration: underline;
+}
+a:visited {
+   color: black;
+   text-decoration: underline;
+}
+a:hover {
+   text-decoration: overline;
+}
+a:active {
+  text-decoration: underline;
+}
+footer {
+   text-align: center;
+   padding: 12px;
+   margin: 12px;
+
+}
