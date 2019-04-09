@@ -1,23 +1,25 @@
- .hero-image {
+/* .hero-image { */
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hyer-memorial.jpeg');
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hyer-memorial.jpg'); */
 
   /* Set a specific height */
-  height: 800px;
+  /* height: 800px; */
   /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* position: fixed; */
 
+/* } */
+
+.hero-image {
+   height: 100vh;
+   background: url('../img/hyer-memorial.jpg') no-repeat fixed 0 0 / cover;
 }
-
-/* background: url('../img/hyer-memorial.jpeg') no-repeat fixed 0 0/cover; */
-
 .hero-text {
   text-align: center;
+  color: white;
   /* top: 50%;
   left: 50%; */
   /* transform: translate(-50%, -50%); */
-  color: white;
 }
